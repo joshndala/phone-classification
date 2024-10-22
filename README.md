@@ -38,6 +38,3 @@ Model performance comparison:
 - Scikit-learn
 - XGBoost
 - Seaborn, Matplotlib
-
-## Author
-Joshua Ndala
