@@ -30,19 +30,6 @@ Model performance comparison:
 *Model predictions compared to actual prices*
 
 
-## Implementation
-1. **Jupyter Notebooks** (`/notebooks`):
-   - Show your thought process
-   - Include visualizations and explanations
-   - Demonstrate the analysis flow
-   - Great for reproduction and learning
-
-2. **Python Scripts** (`/src`):
-   - Clean, production-ready code
-   - Modular and reusable functions
-   - Easier to import and use in other projects
-   - Better for deployment
-
 ## Tools Used
 - Python 3.8+
 - Pandas, NumPy
