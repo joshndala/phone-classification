@@ -14,6 +14,8 @@ The dataset includes various smartphone attributes:
 - Physical characteristics
 - Price information
 
+Source: [Kaggle](https://www.kaggle.com/datasets/berkayeserr/phone-prices)
+
 ![Feature Importance](./visualizations/feature_importance.png)
 *Top features driving smartphone prices*
 
