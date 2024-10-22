@@ -23,7 +23,7 @@ def main():
     final_data = engineer_features(cleaned_data)
     
     # Prepare features and target
-    X = final_data.drop(['price(USD)', 'price_segment', 'is_premium_storage'], axis=1)
+    X = final_data.drop(['price(USD)', 'price_segment'], axis=1)
     y = final_data['price(USD)']
     
     # Train models
