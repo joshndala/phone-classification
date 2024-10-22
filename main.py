@@ -40,7 +40,7 @@ def main():
     importance_df = trainer.get_feature_importance('Random Forest', X.columns)
 
     # Initialize visualizer with save path
-    viz = Visualizer(save_path='visualization')
+    viz = Visualizer(save_path='visualization_main')
     
     # Create all visualizations
     viz.plot_all(final_data, results, metrics_df, importance_df, trainer.models.keys())
