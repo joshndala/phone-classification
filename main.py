@@ -8,10 +8,10 @@ import os
 
 def main():
     # Create visualizations directory if it doesn't exist
-    os.makedirs('visualizations', exist_ok=True)
+    os.makedirs('visualizations_new', exist_ok=True)
     
     # Initialize visualizer with save path
-    viz = Visualizer(save_path='visualizations')
+    viz = Visualizer(save_path='visualizations_new')
     
     # Load and process data
     url = 'https://raw.githubusercontent.com/joshndala/phone-classification/refs/heads/main/cleaned_all_phones.csv'
@@ -40,7 +40,7 @@ def main():
     importance_df = trainer.get_feature_importance('Random Forest', X.columns)
 
     # Initialize visualizer with save path
-    viz = Visualizer(save_path='visualization_main')
+    viz = Visualizer(save_path='visualizations_new')
     
     # Create all visualizations
     viz.plot_all(final_data, results, metrics_df, importance_df, trainer.models.keys())
