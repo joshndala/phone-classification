@@ -1,4 +1,5 @@
 # Smartphone Price Prediction Analysis
+FINAL PAPER AVAILABLE [HERE](./reports/Phone%20Price%20Analysis%20Report%20.pdf)
 
 ## Project Overview
 This project analyzes a dataset of 1,512 smartphones to develop a predictive model for smartphone pricing. Using machine learning techniques, I explored the relationships between phone specifications, brand positioning, and market prices to create an accurate pricing model.
@@ -30,7 +31,6 @@ Model performance comparison:
 
 ![Predictions vs Actual](./visualizations/predictions_vs_actual.png)
 *Model predictions compared to actual prices*
-
 
 ## Tools Used
 - Python 3.8+
